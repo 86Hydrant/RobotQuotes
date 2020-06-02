@@ -5,6 +5,7 @@
 }
 
 #iconContainer {
+  overflow: visible;
   position: absolute;
   top: 3.5%;
   left: 2%;
@@ -15,7 +16,7 @@
 }
 
 #hoverBox {
-  overflow: visible;
+  overflow: visible !important;
   font-family: "Roboto", monospace;
   font-style: italic;
   font-weight: 300;
